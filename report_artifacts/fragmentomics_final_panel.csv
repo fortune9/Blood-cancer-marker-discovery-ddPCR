@@ -1,0 +1,11 @@
+feature,modality,marker_id,standardized_coefficient,chrom,start,end,nearest_gene,gc_content,repeat_overlap,region_length,has_batch_effect,batch_effect_variable,mean_methylation_cancer,mean_methylation_normal
+methylation__CpG_R0607,methylation,CpG_R0607,0.41132078919783943,chr22,37224754.0,37225135.0,GENE0044,0.589,True,382.0,False,,0.09342300884955752,0.05016504854368932
+methylation__CpG_R0164,methylation,CpG_R0164,0.40615446415395323,chr3,14610606.0,14610834.0,GENE0980,0.867,False,229.0,False,,0.12082314814814815,0.07980865384615383
+methylation__CpG_R0805,methylation,CpG_R0805,0.35776058010609596,chr14,92762010.0,92762347.0,GENE3061,0.854,False,338.0,False,,0.1763801801801802,0.1361205882352941
+methylation__CpG_R1263,methylation,CpG_R1263,0.3121207306311393,chr2,93875211.0,93875432.0,GENE3373,0.835,False,222.0,False,,0.05454587155963304,0.022917307692307695
+methylation__CpG_R0360,methylation,CpG_R0360,0.30167332591328955,chr10,4478064.0,4478328.0,GENE1161,0.87,False,265.0,False,,0.38895405405405403,0.3401342857142857
+protein__CEA,protein,CEA,0.3989050928318052,,,,,,,,False,,,
+protein__CYFRA21_1,protein,CYFRA21_1,0.31472529880061306,,,,,,,,False,,,
+protein__GDF15,protein,GDF15,0.2788260049804896,,,,,,,,False,,,
+fragmentomics__short_to_long_frag_ratio,fragmentomics,short_to_long_frag_ratio,0.20331046588827287,,,,,,,,,,,
+fragmentomics__end_motif_CCCA,fragmentomics,end_motif_CCCA,0.014961912097100842,,,,,,,,,,,

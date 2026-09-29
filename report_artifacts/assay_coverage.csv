@@ -1,0 +1,4 @@
+modality,n_primary,n_assayed,n_without_assay_row
+Methylation,300,300,0
+Fragmentomics,300,300,0
+Protein,300,220,80

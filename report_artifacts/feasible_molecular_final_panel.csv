@@ -1,0 +1,9 @@
+feature,modality,marker_id,standardized_coefficient,chrom,start,end,nearest_gene,gc_content,repeat_overlap,region_length,has_batch_effect,batch_effect_variable,mean_methylation_cancer,mean_methylation_normal
+methylation__CpG_R0027,methylation,CpG_R0027,0.18359300515830237,chr18,51377160.0,51377521.0,GENE3635,0.473,False,362.0,False,,0.3260409090909091,0.29988653846153845
+methylation__CpG_R0146,methylation,CpG_R0146,0.13839818534673717,chr6,120439069.0,120439433.0,GENE0973,0.452,False,365.0,False,,0.2116064220183486,0.17588942307692307
+methylation__CpG_R0157,methylation,CpG_R0157,0.1275037648919528,chr10,114734013.0,114734234.0,GENE1959,0.495,False,222.0,False,,0.2982837837837838,0.27258095238095237
+methylation__CpG_R0764,methylation,CpG_R0764,0.10795197257833594,chr18,17181034.0,17181190.0,GENE0805,0.517,False,157.0,False,,0.14682410714285715,0.1273631067961165
+methylation__CpG_R0634,methylation,CpG_R0634,0.09238703979572632,chr9,51476918.0,51477133.0,GENE3133,0.456,False,216.0,False,,0.4257238532110092,0.40238888888888885
+protein__CEA,protein,CEA,0.3744428054901846,,,,,,,,False,,,
+protein__CYFRA21_1,protein,CYFRA21_1,0.28790024328445885,,,,,,,,False,,,
+protein__GDF15,protein,GDF15,0.26827514366350513,,,,,,,,False,,,

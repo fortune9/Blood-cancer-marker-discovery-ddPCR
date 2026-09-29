@@ -17,7 +17,7 @@ Filtering methylation regions for assay design reduced performance in this cohor
 ## Submission files
 
 - [Executed notebook](./Biomarker-discovery-and-modeling.ipynb) — complete analysis, tables, and figures.
-- [HTML report](./Biomarker-discovery-and-modeling.html) — browsable notebook output with embedded figures.
+- [HTML report](./Biomarker-discovery-and-modeling.html) — browsable notebook output with embedded figures. Maybe needs to be downloaded for viewing if not working on github.
 - [PDF summary](./blood_biomarker_discovery_summary.pdf) — concise results and interpretation.
 - [Run instructions](./how-to-run.md) — environment setup, execution, and HTML export. The analysis used Python 3.13.9; [direct requirements](./requirements.txt) and a [Linux/WSL dependency lock](./requirements-lock.txt) are provided.
 - [candidate_data](./candidate_data/) — the five input CSV files.

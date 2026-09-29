@@ -20,7 +20,6 @@ Filtering methylation regions for assay design reduced performance in this cohor
 - [HTML report](./Biomarker-discovery-and-modeling.html) — browsable notebook output with embedded figures.
 - [PDF summary](./blood_biomarker_discovery_summary.pdf) — concise results and interpretation.
 - [Run instructions](./how-to-run.md) — environment setup, execution, and HTML export. The analysis used Python 3.13.9; [direct requirements](./requirements.txt) and a [Linux/WSL dependency lock](./requirements-lock.txt) are provided.
-- [R–Python output comparison](./R_vs_Python_output_comparison.md) — file-by-file comparison with the reference R analysis.
 - `candidate_data/` — the five input CSV files. A fresh run writes 40 result CSVs to `report_artifacts/`.
 
 The random seed and CV settings are recorded in the notebook. Follow [how-to-run.md](./how-to-run.md) to regenerate the results from the included data.

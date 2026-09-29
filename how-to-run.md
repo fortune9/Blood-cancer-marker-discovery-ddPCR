@@ -1,6 +1,6 @@
 # Reproduce the Python biomarker analysis
 
-The notebook `Biomarker-discovery-and-modeling.ipynb` reproduces the QC, batch-effect, and repeated nested-CV analyses in the R report. It reads the five CSV files in the sibling `candidate_data/` directory and writes 40 result CSVs to `report_artifacts/`. Run the commands below from the folder where this file stays.
+The notebook `Biomarker-discovery-and-modeling.ipynb` reproduces the QC, batch-effect, and repeated nested-CV analyses in the R report. It reads the five CSV files in the included `candidate_data/` directory and writes 40 result CSVs to `report_artifacts/`. Run the commands below from `early_cancer_detection_multimodal_python/`.
 
 ## Python and environment
 
@@ -15,7 +15,7 @@ python -m pip check
 python -m ipykernel install --user --name biomarker --display-name "Python (biomarker)"
 ```
 
-The required inputs are `./candidate_data/samples.csv`, `methylation.csv`, `protein.csv`, `fragmentomics.csv`, and `region_annotation.csv`. Keep the original filenames and column names. The notebook's first code cell sets `PROJECT_ROOT`, `INPUT_DIR`, `OUTPUT_DIR`, the random seed, and the CV settings; check these paths if you run it from a different directory.
+The required inputs are `candidate_data/samples.csv`, `methylation.csv`, `protein.csv`, `fragmentomics.csv`, and `region_annotation.csv`. Keep the original filenames and column names. The notebook's first code cell sets `PROJECT_ROOT`, `INPUT_DIR`, `OUTPUT_DIR`, the random seed, and the CV settings; check these paths if you run it from a different directory.
 
 ## Run interactively
 
